@@ -1,1 +1,4 @@
 .github/**
+
+#Add all .csv files to gitignore
+*.csv
