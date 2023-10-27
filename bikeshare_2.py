@@ -132,17 +132,11 @@ def trip_duration_stats(df):
 
 def user_stats(df):
     """Displays statistics on bikeshare users."""
-
-    print('\nCalculating User Stats...\n')
-    start_time = time.time()
-
-    # Display counts of user types
+    print('Calculating User Stats...')
     user_types = df['User Type'].value_counts()
     print('Counts of User Types:')
     print(user_types)
 
-
-    # Display counts of gender (if available in the dataset)
     if 'Gender' in df:
         gender_counts = df['Gender'].value_counts()
         print('\nCounts of Gender:')
@@ -150,9 +144,6 @@ def user_stats(df):
     else:
         print('\nGender data not available for this city.')
 
-
-
-    # Display earliest, most recent, and most common year of birth (if available in the dataset)
     if 'Birth Year' in df:
         earliest_birth_year = int(df['Birth Year'].min())
         most_recent_birth_year = int(df['Birth Year'].max())
@@ -166,7 +157,6 @@ def user_stats(df):
         
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 def main():
     while True:
