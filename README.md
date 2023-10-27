@@ -1,7 +1,7 @@
 # Bikeshare Data Analysis Project
 
 ### Date created
-2023-10-27
+_2023-10-27_
 
 
 ## Description
@@ -9,7 +9,11 @@ This project analyzes bikeshare data for various cities, including Chicago, New 
 
 
 ### Files used
-Include the files used
+- `bikeshare.py`: the main program/python script for the data analysis
+- `chicago.csv`
+- `new_york_city.csv`
+- `washington.csv`
+
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
