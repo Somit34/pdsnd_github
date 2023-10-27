@@ -4,8 +4,9 @@
 2023-10-27
 
 
-### Description
-Describe what your project is about and what it does
+## Description
+This project analyzes bikeshare data for various cities, including Chicago, New York City, and Washington. The program interacts with the user to provide statistics on bike usage patterns.
+
 
 ### Files used
 Include the files used
