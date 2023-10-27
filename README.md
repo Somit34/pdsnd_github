@@ -16,5 +16,6 @@ This project analyzes bikeshare data for various cities, including Chicago, New 
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+This project was completed as part of the Udacity Programming for Data Science Nanodegree Program. The initial project structure and guidance were provided by [Udacity](https://github.com/udacity/pdsnd_github.git).
+
 
